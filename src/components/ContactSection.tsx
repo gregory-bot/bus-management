@@ -5,7 +5,7 @@ const ContactSection = () => {
   return (
     <section id="contact" className="bg-gray-50 py-16">
       <div className="container mx-auto px-4">
-        <h2 className="text-3xl font-bold text-center mb-12">Contact Us</h2>
+        <h2 className="text-3xl font-bold text-center mb-12">contact us</h2>
         
         <div className="grid md:grid-cols-2 gap-12">
           {/* Contact Form */}
@@ -13,7 +13,7 @@ const ContactSection = () => {
             <form className="space-y-6">
               <div>
                 <label className="block text-sm font-medium text-gray-700 mb-1">
-                  Name
+                  name
                 </label>
                 <input
                   type="text"
@@ -24,7 +24,7 @@ const ContactSection = () => {
               
               <div>
                 <label className="block text-sm font-medium text-gray-700 mb-1">
-                  Email
+                  email
                 </label>
                 <input
                   type="email"
@@ -35,7 +35,7 @@ const ContactSection = () => {
               
               <div>
                 <label className="block text-sm font-medium text-gray-700 mb-1">
-                  Message/Complaint
+                  message/complaint
                 </label>
                 <textarea
                   rows={4}
@@ -48,7 +48,7 @@ const ContactSection = () => {
                 type="submit"
                 className="w-full bg-[#8B0000] text-white py-2 px-4 rounded-md hover:bg-[#A52A2A] transition-colors"
               >
-                Send Message
+                send message
               </button>
             </form>
           </div>
@@ -56,7 +56,7 @@ const ContactSection = () => {
           {/* Contact Information */}
           <div className="space-y-8">
             <div>
-              <h3 className="text-xl font-semibold mb-4">Get in Touch</h3>
+              <h3 className="text-xl font-semibold mb-4">get in touch</h3>
               <div className="space-y-4">
                 <div className="flex items-center space-x-3">
                   <Phone className="text-[#8B0000]" />
@@ -74,7 +74,7 @@ const ContactSection = () => {
             </div>
             
             <div>
-              <h3 className="text-xl font-semibold mb-4">Follow Us</h3>
+              <h3 className="text-xl font-semibold mb-4">follow us</h3>
               <div className="flex space-x-4">
                 <a href="#" className="text-[#8B0000] hover:text-[#A52A2A]">
                   <Facebook size={24} />

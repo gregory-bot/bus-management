@@ -12,10 +12,9 @@ const AboutSection = () => {
               comfortable, and efficient transportation solutions for the city's residents.
             </p>
             <p className="text-gray-600 mb-4">
-              established with a vision to transform urban commuting, we operate a fleet of modern 
-              buses serving major routes across Nairobi and its suburbs. Our commitment to punctuality, 
-              safety, and customer comfort has made us the preferred choice for daily commuters.
-              trust me you won't queue again🙂😂
+              established with a vision to transform urban commuting,operating a fleet of modern 
+              buses serving major routes across Nairobi and its suburbs. 
+              trust me you won't queue long again🙂😂
             </p>
             <ul className="space-y-2 text-gray-600">
               <li>✓ Modern fleet of comfortable buses</li>
