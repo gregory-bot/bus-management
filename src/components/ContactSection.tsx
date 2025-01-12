@@ -8,7 +8,7 @@ const ContactSection = () => {
         <h2 className="text-3xl font-bold text-center mb-12">contact us</h2>
         
         <div className="grid md:grid-cols-2 gap-12">
-          {/* Contact Form */}
+          {}
           <div className="bg-white rounded-lg shadow-md p-8">
             <form className="space-y-6">
               <div>
@@ -21,7 +21,6 @@ const ContactSection = () => {
                   placeholder="Your name"
                 />
               </div>
-              
               <div>
                 <label className="block text-sm font-medium text-gray-700 mb-1">
                   email
@@ -52,8 +51,7 @@ const ContactSection = () => {
               </button>
             </form>
           </div>
-          
-          {/* Contact Information */}
+          {}
           <div className="space-y-8">
             <div>
               <h3 className="text-xl font-semibold mb-4">get in touch</h3>
@@ -68,11 +66,10 @@ const ContactSection = () => {
                 </div>
                 <div className="flex items-center space-x-3">
                   <MapPin className="text-[#8B0000]" />
-                  <span>Nairobi CBD, Kenya</span>
+                  <span>nairobi CBD, Kenya</span>
                 </div>
               </div>
             </div>
-            
             <div>
               <h3 className="text-xl font-semibold mb-4">follow us</h3>
               <div className="flex space-x-4">
@@ -93,5 +90,4 @@ const ContactSection = () => {
     </section>
   );
 };
-
 export default ContactSection;

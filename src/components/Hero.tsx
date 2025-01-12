@@ -1,6 +1,20 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 
 const Hero = () => {
+  const [displayText, setDisplayText] = useState('');
+  const fullText = 'skip the long queue in town and book your ride';
+  const typingSpeed = 100;
+
+  useEffect(() => {
+    if (displayText.length < fullText.length) {
+      const timeout = setTimeout(() => {
+        setDisplayText(fullText.slice(0, displayText.length + 1));
+      }, typingSpeed);
+
+      return () => clearTimeout(timeout);
+    }
+  }, [displayText]);
+
   return (
     <div className="relative h-screen">
       <video
@@ -25,14 +39,15 @@ const Hero = () => {
             className="text-5xl md:text-6xl text-white mb-8"
             style={{ fontFamily: 'Courier New, monospace', fontWeight: 'normal' }}
           >
-            Skip the long queue in town and book your ride
+            {displayText}
+            <span className="animate-[blink_1s_infinite]">|</span>
           </h1>
           <a
             href="#book"
             className="inline-block bg-[#8B0000] text-white px-8 py-3 rounded-full text-lg font-semibold
                      transform transition-transform duration-300 hover:scale-105 hover:bg-[#A52A2A]"
           >
-            Book Now
+            book Now
           </a>
         </div>
       </div>

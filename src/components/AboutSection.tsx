@@ -26,7 +26,7 @@ const AboutSection = () => {
           </div>
           <div className="relative">
             <img
-              src="https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?q=80&w=2069"
+              src="https://www.smetro.co.ke/assets/img/metrobus1.jpeg"
               alt="Suppermetro Bus"
               className="rounded-lg shadow-lg w-full h-[400px] object-cover"
             />
@@ -40,5 +40,4 @@ const AboutSection = () => {
     </section>
   );
 };
-
 export default AboutSection;
